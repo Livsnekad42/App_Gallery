@@ -100,7 +100,7 @@ class App extends React.Component {
             <Text
               onPress={() => this.setModalVisible(false)}
               style={styles.text}>
-              Закрыть
+              Close
             </Text>
             <Image source={{uri: this.state.modalImage}} style={styles.image} />
           </View>
